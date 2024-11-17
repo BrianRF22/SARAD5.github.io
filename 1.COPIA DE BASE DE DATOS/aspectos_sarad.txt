@@ -1,0 +1,75 @@
+1. Perfiles de ingreso: /sarad/login
+-Docente
+-Directivo
+-Padre
+
+Perfil del Docente directamente:
+Puede cargar sólo lo suyo
+2. Cuando ingresa Docente:
+-Seleccionar el Año
+-Seleccionar el Turno
+-Seleccionar el Curso
+-Seleccionar el Sección
+-Seleccionar la Asignatura
+-Seleccionar el Alumno
+-Seleccionar Fecha/Hora
+-Seleccionar Tipo de registro anecdótico(positivo/negativo)
+-Ingresar el registro anecdótico
+
+3.El docente puede ver de todas las sanciones
+
+4.Cuando ingresa un directivo:
+Visualizar todos los registros anecdóticos que se registraron
+
+4.1. Dar de alta a los alumnos, docente, padre, inscripcion
+-nombre, apellido, fecha_nacimiento, turno/curso/seccion
+
+encargado(cedula, nombre, apellido, fecha_nacimiento, celular)
+
+alumno (cedula, nombre, apellido, fecha_nacimiento, foto, encargado, consentimiento_imagen)
+
+docente (cedula, nombre, apellido, fecha_nacimiento)
+
+año
+turno
+cursos
+secciones
+inscripcion(año, alumno, turno, curso, seccion)
+
+cronograma
+(turno, curso, seccion, asignaturas, docente)
+asignaturas
+
+4.2. Listado de alumnos con registro anecdótico negativo pendientes de respuesta
+4.2.1. Historial del alumno en todos los aspectos
+
+4.2.2. Pantalla para dejar registro de que se está analizando el caso (con respuesta por etapa)
+4.2.3. Veredicto del registro anecdótico (sanción)
+
+
+5. Pantalla de Padres:
+-Sólo pueden ver lo positivo y las sanciones culminadas
+
+5.1. Autorización/Consentimiento para la carga de la imagen del hijo (en el sistema solo visualizar los que tienen un consentimiento)
+
+
+
+
+
+Lista de Pendientes del proyecto SARAD
+*Perfil Directivo
+-Respuesta a Sanciones
+
+*Perfil Coordinador:
+-Carga de cronogramas con asignaturas y asignación de docentes
+-Inscripción de alumnos a un cronograma ya creado
+-Seguimiento de Sanciones
+
+*Perfil Docente:
+-Carga de Sanciones a los alumnos que tiene asignado
+
+*Perfil Encargado:
+-Visualizar las sanciones de los hijos que le corresponden una vez que el directivo haya respondido a la sanción
+
+*Perfil Alumno:
+-
